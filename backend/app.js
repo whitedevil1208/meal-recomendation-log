@@ -6,7 +6,7 @@ app.use(cors())
 app.use(express.json()); // Middleware to parse JSON bodies
 
 // Connect to MongoDB
-mongoose.connect("mongodb://localhost:27017/"
+mongoose.connect("mongodb+srv://vikramballa184:apple123@cluster0.iinmw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 ).then(() => console.log("MongoDB connected"))
   .catch(err => console.log(err));
 
